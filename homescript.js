@@ -51,6 +51,7 @@ var Calc6Button = document.querySelector('#calc-6').onclick = () => {appendNumbe
 var Calc7Button = document.querySelector('#calc-7').onclick = () => {appendNumber('7'); {ButtonSoundCalc1()}};
 var Calc8Button = document.querySelector('#calc-8').onclick = () => {appendNumber('8'); {ButtonSoundCalc1()}};
 var Calc9Button = document.querySelector('#calc-9').onclick = () => {appendNumber('9'); {ButtonSoundCalc1()}};
+var DropdownButton = document.querySelector('#DropdownButton').onclick = () => {DropdownMP3()};
 //End Buttons
 //Buttons Functions
 function HomeButton() {document.getElementById('Pages').src='./home'}

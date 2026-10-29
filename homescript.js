@@ -54,13 +54,13 @@ var Calc9Button = document.querySelector('#calc-9').onclick = () => {appendNumbe
 var DropdownButton = document.querySelector('#DropdownButton').onclick = () => {DropdownMP3()};
 //End Buttons
 //Buttons Functions
-function HomeButton() {document.getElementById('Pages').src='./home'}
-function AboutButton() {document.getElementById('Pages').src='./about'}
-function ContactButton() {document.getElementById('Pages').src='./contact'}
-function PostsButton() {document.getElementById('Pages').src='./posts'}
-function PhotogButton() {document.getElementById('Pages').src='./photography'}
-function GuestbookButton() {document.getElementById('Pages').src='./guestbook'}
-function LinksButton() {document.getElementById('Pages').src='./links'}
+function HomeButton() {document.getElementById('Pages').src='./home.html'}
+function AboutButton() {document.getElementById('Pages').src='./about.html'}
+function ContactButton() {document.getElementById('Pages').src='./contact.html'}
+function PostsButton() {document.getElementById('Pages').src='./posts.html'}
+function PhotogButton() {document.getElementById('Pages').src='./photography.html'}
+function GuestbookButton() {document.getElementById('Pages').src='./guestbook.html'}
+function LinksButton() {document.getElementById('Pages').src='./links.html'}
 function LinuxguideButton() {document.getElementById('Pages').src='https://autumn-embers.github.io/autumns-linux-guides/'}
 function ToTop() {window.location.href = '#top';}
 function ChangeLinkNameHome() {window.location.href = '#home';}
